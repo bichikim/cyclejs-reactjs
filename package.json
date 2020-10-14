@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+  },
+  "name": "cyclejs-reactjs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "pnpm recursive run start --filter @inside/*",
+    "web": "pnpm recursive run --filter @inside/web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bichikim/cyclejs-reactjs.git"
+  },
+  "author": "bichi@live.co.kr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bichikim/cyclejs-reactjs/issues"
+  },
+  "homepage": "https://github.com/bichikim/cyclejs-reactjs#readme"
+}

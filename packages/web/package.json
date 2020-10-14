@@ -1,0 +1,22 @@
+{
+  "name": "@inside/web",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cycle/react": "^2.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@cycle/react-dom": "^2.4.0",
+    "lodash": "^4.17.20",
+    "@cycle/run": "^5.5.0",
+    "xstream": "^11.14.0",
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "parcel src/index.html",
+    "web": "pnpm recursive run "
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
